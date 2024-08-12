@@ -133,7 +133,7 @@ section {
 .card {
     width: 300px;
     height: 200px;
-    background: linear-gradient(43deg, #671f62 0%, #ab14a1 46%, #d970ff 100%);
+    background: linear-gradient(43deg, #571f67 0%, #721e8e 46%, #bc5fde 100%);
     border-radius: 8px;
     color: white;
     overflow: hidden;
