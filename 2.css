@@ -7,7 +7,7 @@
 }
 
 header {
-    background-color: #f6f1fd;
+    background-color: #e8dcfa;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -138,10 +138,14 @@ section {
     overflow: hidden;
     position: relative;
     transform-style: preserve-3d;
-    perspective: 1000px;zz
-    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    perspective: 1000px;
+    transition: all 0.5s ease cubic-bezier(0.23, 1, 0.320, 1);
     cursor: pointer;
     margin: 8px 40px;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .card-content {
